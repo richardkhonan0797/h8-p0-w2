@@ -1,0 +1,83 @@
+1. Newton Second Law
+
+   Algoritma:
+
+   MULAI
+   Masukkan nilai massa
+   Masukkan nilai percepatan
+   Hitung resultan dengan mengkalikan nilai massa dan nilai percepatan
+   Tampilkan nilai resultan
+   SELESAI
+
+   Pseudocode:
+   
+   resultan = 0
+   massa = 600
+   percepatan = 2
+   resultan = massa dikalikan dengan percepatan
+   print resultan
+
+2. Tahun Kabisat
+
+   Algoritma:
+   
+   MULAI
+   Masukkan tahun
+   Jika tahun habis dibagi 4 dan tidak habis dibagi 100 atau jika tahun habis dibagi 4 dan habis dibagi 100 dan habis dibagi 400 
+      Maka tahun merupakan tahun kabisat
+   Jika tahun tidak memenuhi kondisi di atas
+      Maka bukan merupakan tahun kabisat
+   SELESAI
+
+   Pseudocode:
+
+   tahun = input user
+   if (tahun mod 4 == 0 and tahun mod 100 != 0) and (tahun mod 4 ==    0and tahun mod 100 == 0 and tahun mod 400 == 0)
+     print tahun kabisat
+   else
+     print bukan tahun kabisat
+
+3. Laundry Day
+
+   MULAI
+   Baju dalam mesin cuci adalah 0
+   Baju yang mau dicuci adalah 20
+   Selama dalam mesin cuci belum 20
+      Tambah baju hingga 20 baju
+   Jika dalam mesin cuci sudah 20 baju
+      Maka nyalakan mesin
+
+
+   Pseudocode:
+
+   dalamMesinCuci = 0
+   while dalamMesinCuci < 20
+     dalamMesinCuci += 20
+   if dalamMesinCuci == 20
+     mesin dinyalakan
+
+4. Periksa Kuku
+   
+   Algoritma:
+
+   MULAI
+   Ada 40 siswa/siswi yang memiliki jenis kuku panjang dan pendek
+   Urutan pemeriksaan mulai dari 0
+   Selama belum memeriksa seluruh urutan
+   Lakukan
+      Jika kuku siswa pada urutan memiliki kuku panjang maka guru akan menghukum
+      Jika kuku siswa pada urutan memiliki kuku panjang maka guru akan memuji
+      Panggil urutan selanjutnya
+   SELESAI
+
+   Pseudocode:
+
+   kukuSiswa = [berisi kuku panjang dan pendek]
+   urutan = 0
+   while urutan < 40
+     if kukuSiswa[urutan] == kuku panjang
+        guru menghukum siswa/siswi
+     else
+        guru memuji siswa/siswi
+     urutan += 1
+        		
