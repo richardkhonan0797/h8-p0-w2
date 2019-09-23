@@ -54,7 +54,8 @@
    jumlahBaju = 20
    dalamMesinCuci = 0
    while dalamMesinCuci < jumlahBaju
-     dalamMesinCuci += 20
+     dalamMesinCuci += 1
+     print "baju ke - " + dalamMesinCuci
    if dalamMesinCuci == 20
      mesin dinyalakan
 
