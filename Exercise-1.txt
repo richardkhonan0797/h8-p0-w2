@@ -3,6 +3,7 @@
    Algoritma:
 
    MULAI
+   Resultan awal adalah 0
    Masukkan nilai massa
    Masukkan nilai percepatan
    Hitung resultan dengan mengkalikan nilai massa dan nilai percepatan
@@ -14,7 +15,7 @@
    resultan = 0
    massa = 600
    percepatan = 2
-   resultan = massa dikalikan dengan percepatan
+   resultan = massa * percepatan
    print resultan
 
 2. Tahun Kabisat
