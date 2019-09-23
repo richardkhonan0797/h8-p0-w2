@@ -41,6 +41,7 @@
 3. Laundry Day
 
    MULAI
+   Jumlah baju adalah 20
    Baju dalam mesin cuci adalah 0
    Baju yang mau dicuci adalah 20
    Selama dalam mesin cuci belum 20
@@ -50,9 +51,9 @@
 
 
    Pseudocode:
-
+   jumlahBaju = 20
    dalamMesinCuci = 0
-   while dalamMesinCuci < 20
+   while dalamMesinCuci < jumlahBaju
      dalamMesinCuci += 20
    if dalamMesinCuci == 20
      mesin dinyalakan
