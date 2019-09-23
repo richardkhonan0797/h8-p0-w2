@@ -64,23 +64,25 @@
    Algoritma:
 
    MULAI
-   Ada 40 siswa/siswi yang memiliki jenis kuku panjang dan pendek
-   Urutan pemeriksaan mulai dari 0
-   Selama belum memeriksa seluruh urutan
+   Murid yang akan diperiksa 40 orang
+   Selama murid yang diperiksa belum mencapai 40
    Lakukan
-      Jika kuku siswa pada urutan memiliki kuku panjang maka guru akan menghukum
-      Jika kuku siswa pada urutan memiliki kuku panjang maka guru akan memuji
-      Panggil urutan selanjutnya
+      Jika kuku siswa panjang maka guru akan menghukum
+      Jika kuku siswa pendek maka guru akan memuji
+      lanjut ke urutan selanjutnya
    SELESAI
 
    Pseudocode:
 
-   kukuSiswa = [berisi panjang kuku setiap siswa]
+   jumlahMurid = 40
    urutan = 0
-   while urutan < 40
-     if kukuSiswa[urutan] == kuku panjang
-        guru menghukum siswa/siswi
-     else
-        guru memuji siswa/siswi
-     urutan += 1
+   while(urutan<40){
+     if(urutuan === kuku panjang ){
+       print guru menghukum
+     }
+     else{
+       print guru memuji
+     }
+     urutan ++
+   }
         		
