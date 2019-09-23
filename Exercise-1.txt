@@ -72,7 +72,7 @@
 
    Pseudocode:
 
-   kukuSiswa = [berisi kuku panjang dan pendek]
+   kukuSiswa = [berisi panjang kuku setiap siswa]
    urutan = 0
    while urutan < 40
      if kukuSiswa[urutan] == kuku panjang
